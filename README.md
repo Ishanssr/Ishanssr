@@ -23,7 +23,7 @@
 <br/>
 
 <div align="center">
-  <img src="assets/banner.svg" width="95%" height="160" alt="Uchiha"/>
+  <img src="assets/banner.svg?v=2" width="95%" height="160" alt="Uchiha"/>
   <br/><br/>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ishanssr&bg_color=0d1117&color=58a6ff&line=58a6ff&point=3fb950&area=true&hide_border=true&radius=8" width="95%" alt="Activity Graph"/>
   <br/><br/>
