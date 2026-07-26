@@ -248,10 +248,10 @@
   <h2>🎧 Now Playing</h2>
   <br/>
   <a href="https://music-profile.rayriffy.com">
-    <img src="https://music-profile.rayriffy.com/api/card?user=Ishanssr&theme=dark" width="50%" alt="Apple Music"/>
+    <img src="https://music-profile.rayriffy.com/theme/dark.svg?uid=001615.72a778249e074012b9043e46e826e657.1905" width="50%" alt="Apple Music"/>
   </a>
   <br/><br/>
-  <i>🎵 <a href="https://music-profile.rayriffy.com">Connect Apple Music here</a> to activate the now-playing card</i>
+  <i>🎵 via Apple Music</i>
 </div>
 
 <br/>
