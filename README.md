@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg" width="100%" height="200" alt="Ishan Uchiha"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Ishan&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%"/>
 </div>
 
 <br/>
@@ -23,6 +23,8 @@
 <br/>
 
 <div align="center">
+  <img src="assets/banner.svg" width="95%" height="160" alt="Uchiha"/>
+  <br/><br/>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ishanssr&bg_color=0d1117&color=58a6ff&line=58a6ff&point=3fb950&area=true&hide_border=true&radius=8" width="95%" alt="Activity Graph"/>
   <br/><br/>
   <img src="https://ghchart.rshah.org/58a6ff/Ishanssr" width="95%" alt="Commit Heatmap"/>
