@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Ishanssr&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Ishan&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%"/>
 </div>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=500&color=38BDF8&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B%2C+I'm+Ishanssr;Full-Stack+Developer;ML+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=500&color=38BDF8&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B%2C+I'm+Ishan;Full-Stack+Developer;ML+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
 </h1>
 
 <h3 align="center">A passionate full-stack developer & ML enthusiast building AI-powered tools</h3>
@@ -26,9 +26,9 @@
       <td width="50%">
         <h3>🔭 Currently Working On</h3>
         <ul>
+          <li>WeMine — Blockchain mining platform</li>
           <li><a href="https://github.com/Ishanssr/CodeGuard">CodeGuard</a> — AI-Powered Vulnerability Scanner</li>
           <li><a href="https://github.com/Ishanssr/Serpynx">Serpynx</a> — Developer Freelance Marketplace</li>
-          <li><a href="https://github.com/Ishanssr/Launchfinder">Launchfinder</a> — Product Launch Discovery</li>
         </ul>
         <h3>🌱 Currently Learning</h3>
         <ul>
