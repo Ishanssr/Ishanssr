@@ -247,12 +247,11 @@
 <div align="center">
   <h2>🎧 Now Playing</h2>
   <br/>
-  <a href="https://music.apple.com/profile/Ishanssr">
-    <img src="https://apple-music-github-profile.rayriffy.com/connect/Ishanssr" width="50%" alt="Apple Music"
-         onerror="this.style.display='none'"/>
+  <a href="https://music-profile.rayriffy.com">
+    <img src="https://music-profile.rayriffy.com/api/card?user=Ishanssr&theme=dark" width="50%" alt="Apple Music"/>
   </a>
   <br/><br/>
-  <i>🎵 Apple Music — connect at <a href="https://apple-music-github-profile.rayriffy.com">rayriffy.com</a> to show now playing</i>
+  <i>🎵 <a href="https://music-profile.rayriffy.com">Connect Apple Music here</a> to activate the now-playing card</i>
 </div>
 
 <br/>
