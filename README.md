@@ -1,15 +1,6 @@
-<pre align="center" style="font-family: 'Courier New', monospace; background: #0d1117; padding: 20px; border-radius: 8px; border: 1px solid #30363d; color: #58a6ff; line-height: 1.4;">
-╔══════════════════════════════════════════════════════════╗
-║                                                          ║
-║    ██╗███████╗██╗  ██╗ █████╗ ███╗   ██╗               ║
-║    ██║██╔════╝██║  ██║██╔══██╗████╗  ██║               ║
-║    ██║███████╗███████║███████║██╔██╗ ██║               ║
-║    ██║╚════██║██╔══██║██╔══██║██║╚██╗██║               ║
-║    ██║███████║██║  ██║██║  ██║██║ ╚████║               ║
-║    ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝               ║
-║                                                          ║
-╚══════════════════════════════════════════════════════════╝
-</pre>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Ishan&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%"/>
+</div>
 
 <br/>
 
@@ -439,6 +430,17 @@
 
 <br/>
 <hr/>
+<br/>
+
+<pre align="center" style="font-family: 'Courier New', monospace; background: #0d1117; padding: 16px; border-radius: 8px; border: 1px solid #30363d; color: #58a6ff; line-height: 1.3;">
+██████╗ ██╗   ██╗██╗██╗     ██████╗ ██╗███╗   ██╗ ██████╗
+██╔══██╗╚██╗ ██╔╝██║██║     ██╔══██╗██║████╗  ██║██╔════╝
+██████╔╝ ╚████╔╝ ██║██║     ██║  ██║██║██╔██╗ ██║██║  ███╗
+██╔══██╗  ╚██╔╝  ██║██║     ██║  ██║██║██║╚██╗██║██║   ██║
+██████╔╝   ██║   ██║███████╗██████╔╝██║██║ ╚████║╚██████╔╝
+╚═════╝    ╚═╝   ╚═╝╚══════╝╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝
+</pre>
+
 <br/>
 
 <pre align="center" style="font-family: 'Courier New', monospace; background: #0d1117; padding: 12px; border-radius: 8px; border: 1px solid #30363d; color: #8b949e; line-height: 1.4;">
