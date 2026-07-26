@@ -1,79 +1,125 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Ishan&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%"/>
-</div>
+<pre align="center" style="font-family: 'Courier New', monospace; background: #0d1117; padding: 20px; border-radius: 8px; border: 1px solid #30363d; color: #58a6ff; line-height: 1.4;">
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║    ██╗███████╗██╗  ██╗ █████╗ ███╗   ██╗               ║
+║    ██║██╔════╝██║  ██║██╔══██╗████╗  ██║               ║
+║    ██║███████╗███████║███████║██╔██╗ ██║               ║
+║    ██║╚════██║██╔══██║██╔══██║██║╚██╗██║               ║
+║    ██║███████║██║  ██║██║  ██║██║ ╚████║               ║
+║    ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝               ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+</pre>
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=500&color=38BDF8&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B%2C+I'm+Ishan;Full-Stack+Developer;ML+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
-</h1>
+<br/>
 
-<h3 align="center">A passionate full-stack developer & ML enthusiast building AI-powered tools</h3>
+<pre align="left" style="font-family: 'Courier New', monospace; background: #0d1117; padding: 16px; border-radius: 8px; border: 1px solid #30363d; color: #f0f6fc; line-height: 1.5;">
+<span style="color: #58a6ff;">ishan@github</span>:<span style="color: #f0883e;">~</span>$ whoami
+<span style="color: #3fb950;">Ishan Jangir</span>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Ishanssr&style=for-the-badge&color=38bdf8" alt="Profile Views"/>
-  <a href="https://github.com/Ishanssr?tab=followers">
-    <img src="https://img.shields.io/github/followers/Ishanssr?style=for-the-badge&logo=github&color=38bdf8" alt="Followers"/>
-  </a>
-  <a href="https://github.com/Ishanssr">
-    <img src="https://img.shields.io/github/stars/Ishanssr?style=for-the-badge&logo=github&color=818cf8" alt="Stars"/>
-  </a>
-</div>
+<span style="color: #58a6ff;">ishan@github</span>:<span style="color: #f0883e;">~</span>$ cat interests.txt
+<span style="color: #d2a8ff;">AI</span> <span style="color: #ffa657;">Computer Vision</span> <span style="color: #58a6ff;">Full Stack</span> <span style="color: #f0883e;">CP</span> <span style="color: #3fb950;">Physics</span>
+
+<span style="color: #58a6ff;">ishan@github</span>:<span style="color: #f0883e;">~</span>$ uptime
+<span style="color: #3fb950;">Building cool things since 2022</span>
+</pre>
+
+<br/>
+
+<pre align="center" style="font-family: 'Courier New', monospace; background: #0d1117; padding: 16px; border-radius: 8px; border: 1px solid #30363d; color: #f0f6fc; line-height: 1.6;">
+╭─────────────────────────────────────╮
+│             STATUS                  │
+├─────────────────────────────────────┤
+│ Name      <span style="color: #58a6ff;">Ishan Jangir</span>               │
+│ Location  <span style="color: #58a6ff;">India</span>                     │
+│ Focus     <span style="color: #d2a8ff;">AI Engineering</span>               │
+│ Mission   <span style="color: #3fb950;">Build products at scale</span>      │
+│ Mood      <span style="color: #ffa657;">Shipping 🚀</span>                    │
+╰─────────────────────────────────────╯
+</pre>
+
+<br/>
+
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=440&lines=Building+AI+Products;Computer+Vision;Backend+Developer;Physics+Enthusiast" alt="Typing SVG" />
+</h3>
 
 <br/>
 
 <div align="center">
   <table>
     <tr>
-      <td width="50%">
-        <h3>🔭 Currently Working On</h3>
-        <ul>
-          <li>WeMine — Blockchain mining platform</li>
-          <li><a href="https://github.com/Ishanssr/CodeGuard">CodeGuard</a> — AI-Powered Vulnerability Scanner</li>
-          <li><a href="https://github.com/Ishanssr/Serpynx">Serpynx</a> — Developer Freelance Marketplace</li>
-        </ul>
-        <h3>🌱 Currently Learning</h3>
-        <ul>
-          <li>Advanced Machine Learning & LLMs</li>
-          <li>Cloud Architecture (AWS/GCP)</li>
-          <li>System Design & Distributed Systems</li>
-        </ul>
+      <td align="center" width="16%">
+        <img src="https://custom-icon-badges.demolab.com/badge/-visitors-0d1117?style=for-the-badge&logo=eye&logoColor=58a6ff"/>
+        <br/>
+        <img src="https://komarev.com/ghpvc/?username=Ishanssr&style=flat-square&color=58a6ff&label=" alt="visitors"/>
       </td>
-      <td width="50%">
-        <h3>💡 What I Build</h3>
-        <ul>
-          <li>🧠 ML-powered applications</li>
-          <li>🌐 Full-stack web platforms</li>
-          <li>🔒 Security & analysis tools</li>
-          <li>⚡️ Performance-optimized systems</li>
-        </ul>
-        <h3>📫 Reach Me</h3>
-        <p>
-          <a href="mailto:ishan@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-          <a href="https://linkedin.com/in/Ishanssr"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-          <a href="https://twitter.com/Ishanssr"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-        </p>
+      <td align="center" width="16%">
+        <img src="https://custom-icon-badges.demolab.com/badge/-views-0d1117?style=for-the-badge&logo=graph&logoColor=58a6ff"/>
+        <br/>
+        <img src="https://komarev.com/ghpvc/?username=Ishanssr&style=flat-square&color=58a6ff&label="/>
+      </td>
+      <td align="center" width="16%">
+        <img src="https://custom-icon-badges.demolab.com/badge/-followers-0d1117?style=for-the-badge&logo=people&logoColor=58a6ff"/>
+        <br/>
+        <img src="https://img.shields.io/github/followers/Ishanssr?style=flat-square&color=58a6ff&label="/>
+      </td>
+      <td align="center" width="16%">
+        <img src="https://custom-icon-badges.demolab.com/badge/-repos-0d1117?style=for-the-badge&logo=repo&logoColor=58a6ff"/>
+        <br/>
+        <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=58a6ff&label=&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FIshanssr"/>
+      </td>
+      <td align="center" width="16%">
+        <img src="https://custom-icon-badges.demolab.com/badge/-stars-0d1117?style=for-the-badge&logo=star&logoColor=58a6ff"/>
+        <br/>
+        <img src="https://img.shields.io/github/stars/Ishanssr?style=flat-square&color=58a6ff&label="/>
+      </td>
+      <td align="center" width="16%">
+        <img src="https://custom-icon-badges.demolab.com/badge/-time-0d1117?style=for-the-badge&logo=clock&logoColor=58a6ff"/>
+        <br/>
+        <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=58a6ff&label=&query=%24.datetime&url=https%3A%2F%2Fworldtimeapi.org%2Fapi%2Ftimezone%2FAsia%2FKolkata&cache=no"/>
       </td>
     </tr>
   </table>
 </div>
 
 <br/>
+<hr/>
+<br/>
 
 <div align="center">
-  <h2>⚡ Tech Stack ⚡</h2>
+  <h2>🚧 Currently Building</h2>
   <br/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <table>
+    <tr>
+      <td width="50%" style="padding: 8px;">
+        <img src="https://img.shields.io/badge/STATUS-LIVE-3fb950?style=for-the-badge"/>
+        <br/>
+        <b>Kaggle Cell Tracking</b><br/>
+        <span style="color: #8b949e;">Computer Vision | PyTorch</span>
+      </td>
+      <td width="50%" style="padding: 8px;">
+        <img src="https://img.shields.io/badge/STATUS-IN%20DEV-58a6ff?style=for-the-badge"/>
+        <br/>
+        <b>WEMINE</b><br/>
+        <span style="color: #8b949e;">Blockchain | Full Stack</span>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" style="padding: 8px;">
+        <img src="https://img.shields.io/badge/STATUS-BUILDING-ffa657?style=for-the-badge"/>
+        <br/>
+        <b>Inventory Management</b><br/>
+        <span style="color: #8b949e;">React | Django</span>
+      </td>
+      <td width="50%" style="padding: 8px;">
+        <img src="https://img.shields.io/badge/STATUS-SHIPPING-d2a8ff?style=for-the-badge"/>
+        <br/>
+        <b>AI Code Review Tool</b><br/>
+        <span style="color: #8b949e;">LLMs | FastAPI</span>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>
@@ -81,13 +127,15 @@
 <br/>
 
 <div align="center">
-  <h2>📊 GitHub Analytics 📊</h2>
+  <h2>📈 Skill Progression</h2>
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=Ishanssr&show_icons=true&count_private=true&hide_border=true&title_color=38bdf8&icon_color=818cf8&text_color=c9d1d9&bg_color=0d1117" width="49%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ishanssr&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0d1117&stroke=334155&ring=38bdf8&fire=818cf8&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b" width="49%"/>
-  <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ishanssr&layout=compact&hide_border=true&title_color=38bdf8&text_color=c9d1d9&bg_color=0d1117&langs_count=8" width="49%"/>
-  <img src="https://github-profile-trophy.vercel.app/?username=Ishanssr&theme=algolia&no-frame=true&no-bg=true&row=2&column=3" width="49%"/>
+  <table align="center" width="80%">
+    <tr><td align="left" width="15%"><b>Python</b></td><td width="70%"><img src="https://progress-bar.dev/90/?style=for-the-badge&color=58a6ff&width=300" width="100%"/></td></tr>
+    <tr><td align="left"><b>React</b></td><td><img src="https://progress-bar.dev/80/?style=for-the-badge&color=58a6ff&width=300" width="100%"/></td></tr>
+    <tr><td align="left"><b>Computer Vision</b></td><td><img src="https://progress-bar.dev/75/?style=for-the-badge&color=58a6ff&width=300" width="100%"/></td></tr>
+    <tr><td align="left"><b>Backend</b></td><td><img src="https://progress-bar.dev/70/?style=for-the-badge&color=58a6ff&width=300" width="100%"/></td></tr>
+    <tr><td align="left"><b>AI Research</b></td><td><img src="https://progress-bar.dev/65/?style=for-the-badge&color=58a6ff&width=300" width="100%"/></td></tr>
+  </table>
 </div>
 
 <br/>
@@ -95,9 +143,24 @@
 <br/>
 
 <div align="center">
-  <h2>📈 Contribution Graph 📈</h2>
+  <h2>🏔️ GitHub Skyline</h2>
   <br/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ishanssr&bg_color=0d1117&color=38bdf8&line=818cf8&point=38bdf8&area=true&hide_border=true" width="100%"/>
+  <table>
+    <tr>
+      <td width="50%">
+        <img src="https://raw.githubusercontent.com/Ishanssr/Ishanssr/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake"/>
+      </td>
+      <td width="50%">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ishanssr&bg_color=0d1117&color=58a6ff&line=58a6ff&point=3fb950&area=true&hide_border=true&radius=8" width="100%" alt="Activity Graph"/>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <br/>
+        <img src="https://ghchart.rshah.org/Ishanssr" width="100%" alt="Commit Heatmap"/>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>
@@ -105,9 +168,20 @@
 <br/>
 
 <div align="center">
-  <h2>🐍 Contribution Snake 🐍</h2>
+  <h2>🧠 AI Arsenal</h2>
   <br/>
-  <img src="https://raw.githubusercontent.com/Ishanssr/Ishanssr/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  <table>
+    <tr>
+      <td align="center">✅ YOLOv8</td>
+      <td align="center">✅ DistilBERT</td>
+      <td align="center">✅ GraphCodeBERT</td>
+    </tr>
+    <tr>
+      <td align="center">✅ OpenCV</td>
+      <td align="center">✅ PyTorch</td>
+      <td align="center">✅ TensorFlow</td>
+    </tr>
+  </table>
 </div>
 
 <br/>
@@ -115,20 +189,154 @@
 <br/>
 
 <div align="center">
-  <h2>🚀 Featured Projects 🚀</h2>
+  <h2>🛠️ Tech Stack</h2>
   <br/>
-  <a href="https://github.com/Ishanssr/CodeGuard">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ishanssr&repo=CodeGuard&hide_border=true&title_color=38bdf8&icon_color=818cf8&text_color=c9d1d9&bg_color=0d1117" width="49%"/>
+  <table>
+    <tr>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="42" title="Python"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="42" title="C++"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="42" title="Java"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="42" title="React"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="42" title="Node.js"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="42" title="PostgreSQL"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="42" title="Docker"/></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="42" title="Git"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="42" title="Linux"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="42" title="PyTorch"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="42" title="TensorFlow"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="42" title="TypeScript"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="42" title="Django"/></td>
+      <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="42" title="FastAPI"/></td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+<hr/>
+<br/>
+
+<div align="center">
+  <h2>🚀 Featured Projects</h2>
+  <br/>
+  <table>
+    <tr>
+      <td width="50%" style="padding: 8px;">
+        <img src="https://raw.githubusercontent.com/Ishanssr/Ishanssr/main/assets/placeholder-project.png" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" onerror="this.style.display='none'" alt="Brain Tumor Detection"/>
+        <br/>
+        <b>Brain Tumor Detection</b>
+        <br/>
+        <span style="color: #8b949e;">Computer Vision · YOLOv8 · PyTorch</span>
+        <br/>
+        <a href="#"><img src="https://img.shields.io/badge/Live_Demo-→-58a6ff?style=flat-square"/></a>
+      </td>
+      <td width="50%" style="padding: 8px;">
+        <img src="https://raw.githubusercontent.com/Ishanssr/Ishanssr/main/assets/placeholder-project.png" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" onerror="this.style.display='none'" alt="CodeGuard AI"/>
+        <br/>
+        <b>CodeGuard AI</b>
+        <br/>
+        <span style="color: #8b949e;">AI · Django · Transformers</span>
+        <br/>
+        <a href="https://github.com/Ishanssr/CodeGuard"><img src="https://img.shields.io/badge/Live_Demo-→-58a6ff?style=flat-square"/></a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" style="padding: 8px;">
+        <img src="https://raw.githubusercontent.com/Ishanssr/Ishanssr/main/assets/placeholder-project.png" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" onerror="this.style.display='none'" alt="Inventory Management"/>
+        <br/>
+        <b>Inventory Management</b>
+        <br/>
+        <span style="color: #8b949e;">React · Django · PostgreSQL</span>
+        <br/>
+        <a href="#"><img src="https://img.shields.io/badge/Live_Demo-→-58a6ff?style=flat-square"/></a>
+      </td>
+      <td width="50%" style="padding: 8px;">
+        <img src="https://raw.githubusercontent.com/Ishanssr/Ishanssr/main/assets/placeholder-project.png" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" onerror="this.style.display='none'" alt="Serpynx"/>
+        <br/>
+        <b>Serpynx</b>
+        <br/>
+        <span style="color: #8b949e;">Full Stack · JavaScript · React</span>
+        <br/>
+        <a href="https://github.com/Ishanssr/Serpynx"><img src="https://img.shields.io/badge/Live_Demo-→-58a6ff?style=flat-square"/></a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+<hr/>
+<br/>
+
+<div align="center">
+  <h2>💻 Coding Setup</h2>
+  <br/>
+  <table>
+    <tr>
+      <td>💻 MacBook Pro M1</td>
+      <td>📝 VS Code + Neovim</td>
+    </tr>
+    <tr>
+      <td>🐧 Arch Linux VM</td>
+      <td>🐍 Python · JavaScript</td>
+    </tr>
+    <tr>
+      <td>☕ Coffee</td>
+      <td></td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+<hr/>
+<br/>
+
+<div align="center">
+  <h2>📖 Project Timeline</h2>
+  <br/>
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <b>2023</b><br/>
+        <span style="color: #8b949e;">Chess AI</span>
+      </td>
+      <td align="center" width="10%">⬇️</td>
+      <td align="center" width="25%">
+        <b>2024</b><br/>
+        <span style="color: #8b949e;">Tumor Detection</span>
+      </td>
+      <td align="center" width="10%">⬇️</td>
+      <td align="center" width="30%">
+        <b>2025</b><br/>
+        <span style="color: #8b949e;">Inventory Management</span>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <b>2026</b><br/>
+        <span style="color: #8b949e;">Kaggle Research</span>
+      </td>
+      <td align="center">⬇️</td>
+      <td align="center">
+        <b>2026+</b><br/>
+        <span style="color: #58a6ff; font-weight: bold;">WEMINE</span>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+<hr/>
+<br/>
+
+<div align="center">
+  <h2>🎧 Currently Playing</h2>
+  <br/>
+  <a href="https://spotify-github-profile.vercel.app/api/view?uid=Ishanssr&redirect=true">
+    <img src="https://spotify-github-profile.vercel.app/api/view?uid=Ishanssr&cover_image=true&theme=dark&show_offline=false&background_color=0d1117&interchange=false&bar_color=58a6ff&bar_color_cover=false" width="50%"/>
   </a>
-  <a href="https://github.com/Ishanssr/Serpynx">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ishanssr&repo=Serpynx&hide_border=true&title_color=38bdf8&icon_color=818cf8&text_color=c9d1d9&bg_color=0d1117" width="49%"/>
-  </a>
-  <a href="https://github.com/Ishanssr/Launchfinder">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ishanssr&repo=Launchfinder&hide_border=true&title_color=38bdf8&icon_color=818cf8&text_color=c9d1d9&bg_color=0d1117" width="49%"/>
-  </a>
-  <a href="https://github.com/Ishanssr/Instaclone">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Ishanssr&repo=Instaclone&hide_border=true&title_color=38bdf8&icon_color=818cf8&text_color=c9d1d9&bg_color=0d1117" width="49%"/>
-  </a>
+  <br/>
+  <sub><a href="https://spotify-github-profile.vercel.app/api/view?uid=Ishanssr&redirect=true">Replace with your Spotify UID in the URL</a></sub>
 </div>
 
 <br/>
@@ -136,19 +344,116 @@
 <br/>
 
 <div align="center">
-  <h2>💭 Random Dev Quote 💭</h2>
+  <h2>⏱️ Coding Metrics (This Week)</h2>
   <br/>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="100%"/>
+  <img src="https://wakatime.com/badge/user/Ishanssr.svg?style=for-the-badge" width="30%"/>
+  <br/>
+  <table>
+    <tr><td align="left">Python</td><td align="right"><span style="color: #58a6ff;">18 hrs</span></td></tr>
+    <tr><td align="left">TypeScript</td><td align="right"><span style="color: #58a6ff;">8 hrs</span></td></tr>
+    <tr><td align="left">Markdown</td><td align="right"><span style="color: #58a6ff;">2 hrs</span></td></tr>
+    <tr><td align="left">JSON</td><td align="right"><span style="color: #58a6ff;">1 hr</span></td></tr>
+  </table>
+  <br/>
+  <sub>Powered by <a href="https://wakatime.com">WakaTime</a></sub>
 </div>
+
+<br/>
+<hr/>
+<br/>
+
+<div align="center">
+  <h2>🏆 Achievements</h2>
+  <br/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Ishanssr&theme=onedark&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" width="100%"/>
+</div>
+
+<br/>
+<hr/>
+<br/>
+
+<div align="center">
+  <h2>🗣️ Ask Me About</h2>
+  <br/>
+  <table>
+    <tr>
+      <td>🧠 AI</td>
+      <td>👁️ Computer Vision</td>
+      <td>⚛️ React</td>
+    </tr>
+    <tr>
+      <td>🐍 Django</td>
+      <td>🏆 Kaggle</td>
+      <td>🌌 Physics</td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+<hr/>
+<br/>
+
+<div align="center">
+  <h2>🌌 Current Obsession</h2>
+  <br/>
+  <table>
+    <tr>
+      <td align="center">
+        <span style="font-size: 20px;">🧪 General Relativity</span>
+        <br/>
+        <span style="color: #8b949e;">Spacetime curvature · Black holes · Gravitational waves</span>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <span style="font-size: 20px;">⚛️ Quantum Computing</span>
+        <br/>
+        <span style="color: #8b949e;">Qubits · Superposition · Shor's algorithm</span>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <span style="font-size: 20px;">🔭 Cosmology</span>
+        <br/>
+        <span style="color: #8b949e;">Big Bang · Dark matter · Cosmic microwave background</span>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+<hr/>
+<br/>
+
+<div align="center">
+  <h2>💬 Quote of the Day</h2>
+  <br/>
+  <table align="center" width="80%" style="background: linear-gradient(135deg, #0d1117 0%, #161b22 100%); border: 1px solid #30363d; border-radius: 12px; padding: 20px;">
+    <tr>
+      <td align="center">
+        <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="90%" alt="Random Quote"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+<hr/>
+<br/>
+
+<pre align="center" style="font-family: 'Courier New', monospace; background: #0d1117; padding: 12px; border-radius: 8px; border: 1px solid #30363d; color: #8b949e; line-height: 1.4;">
+╔══════════════════════════════════════════════════════════════╗
+║  "The best way to predict the future is to invent it."      ║
+║                                         — Alan Kay          ║
+╚══════════════════════════════════════════════════════════════╝
+
+<span style="color: #58a6ff;">ishan@github</span>:<span style="color: #f0883e;">~</span>$ <span style="color: #3fb950;">exit</span>
+</pre>
 
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&fontColor=ffffff" width="100%"/>
-</div>
-
-<div align="center">
-  <b>⭐ Thanks for visiting my profile! ⭐</b>
+  <sub>✨ Profile auto-updates daily · Last refresh: July 2026</sub>
   <br/>
-  <sub>Last updated: July 2026</sub>
+  <sub>⭐ If you like what you see, give it a star!</sub>
 </div>
