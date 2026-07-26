@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220">
+  <rect width="480" height="220" fill="#0d1117" rx="10"/>
+  <rect x="1" y="1" width="478" height="218" fill="none" stroke="#30363d" stroke-width="2" rx="10"/>
+  <text x="40" y="40" font-family="monospace" font-size="16" fill="#8b949e" font-weight="bold">STATUS</text>
+  <line x1="40" y1="55" x2="440" y2="55" stroke="#30363d" stroke-width="1"/>
+  <text x="40" y="82" font-family="monospace" font-size="14" fill="#8b949e">Name</text>
+  <text x="200" y="82" font-family="monospace" font-size="14" fill="#58a6ff">Ishan Jangir</text>
+  <text x="40" y="108" font-family="monospace" font-size="14" fill="#8b949e">Location</text>
+  <text x="200" y="108" font-family="monospace" font-size="14" fill="#58a6ff">India</text>
+  <text x="40" y="134" font-family="monospace" font-size="14" fill="#8b949e">Focus</text>
+  <text x="200" y="134" font-family="monospace" font-size="14" fill="#d2a8ff">AI Engineering</text>
+  <text x="40" y="160" font-family="monospace" font-size="14" fill="#8b949e">Mission</text>
+  <text x="200" y="160" font-family="monospace" font-size="14" fill="#3fb950">Build products at scale</text>
+  <text x="40" y="186" font-family="monospace" font-size="14" fill="#8b949e">Mood</text>
+  <text x="200" y="186" font-family="monospace" font-size="14" fill="#ffa657">Shipping 🚀</text>
+</svg>

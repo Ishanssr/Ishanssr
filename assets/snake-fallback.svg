@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
-  <rect width="800" height="200" fill="#0d1117" rx="8"/>
-  <rect x="1" y="1" width="798" height="198" fill="none" stroke="#30363d" stroke-width="2" rx="8"/>
-  <text x="400" y="80" font-family="monospace" font-size="18" fill="#58a6ff" text-anchor="middle">🐍 Snake loading...</text>
-  <text x="400" y="120" font-family="monospace" font-size="14" fill="#8b949e" text-anchor="middle">Run the GitHub Action to generate it</text>
-  <rect x="300" y="140" width="200" height="30" rx="6" fill="#58a6ff" opacity="0.2"/>
-  <text x="400" y="160" font-family="monospace" font-size="12" fill="#58a6ff" text-anchor="middle">Auto-updates daily →</text>
-</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180">
+  <rect width="720" height="180" fill="#0d1117" rx="10"/>
+  <rect x="1" y="1" width="718" height="178" fill="none" stroke="#30363d" stroke-width="2" rx="10"/>
+  <circle cx="25" cy="25" r="6" fill="#f85149"/>
+  <circle cx="45" cy="25" r="6" fill="#d29922"/>
+  <circle cx="65" cy="25" r="6" fill="#3fb950"/>
+  <text x="25" y="58" font-family="monospace" font-size="14" fill="#58a6ff">ishan@github</text>
+  <text x="192" y="58" font-family="monospace" font-size="14" fill="#f0883e">~</text>
+  <text x="205" y="58" font-family="monospace" font-size="14" fill="#f0f6fc">$ whoami</text>
+  <text x="25" y="82" font-family="monospace" font-size="14" fill="#3fb950">Ishan Jangir</text>
+  <text x="25" y="108" font-family="monospace" font-size="14" fill="#58a6ff">ishan@github</text>
+  <text x="192" y="108" font-family="monospace" font-size="14" fill="#f0883e">~</text>
+  <text x="205" y="108" font-family="monospace" font-size="14" fill="#f0f6fc">$ cat interests.txt</text>
+  <text x="25" y="132" font-family="monospace" font-size="14" fill="#d2a8ff">AI</text>
+  <text x="55" y="132" font-family="monospace" font-size="14" fill="#ffa657">Computer Vision</text>
+  <text x="190" y="132" font-family="monospace" font-size="14" fill="#58a6ff">Full Stack</text>
+  <text x="285" y="132" font-family="monospace" font-size="14" fill="#f0883e">CP</text>
+  <text x="320" y="132" font-family="monospace" font-size="14" fill="#3fb950">Physics</text>
+  <text x="25" y="158" font-family="monospace" font-size="14" fill="#58a6ff">ishan@github</text>
+  <text x="192" y="158" font-family="monospace" font-size="14" fill="#f0883e">~</text>
+  <text x="205" y="158" font-family="monospace" font-size="14" fill="#f0f6fc">$ uptime</text>
+  <text x="280" y="158" font-family="monospace" font-size="14" fill="#3fb950">Building cool things since 2022</text>
+</svg>
