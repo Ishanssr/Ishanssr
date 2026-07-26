@@ -30,13 +30,13 @@
   <table>
     <tr>
       <td align="center"><b>Visitors</b></td>
-      <td align="center"><b>Profile Views</b></td>
+      <td align="center"><b>Repositories</b></td>
       <td align="center"><b>Followers</b></td>
       <td align="center"><b>Stars</b></td>
     </tr>
     <tr>
       <td align="center"><img src="https://komarev.com/ghpvc/?username=Ishanssr&style=flat-square&color=58a6ff&label="/></td>
-      <td align="center"><img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=58a6ff&label=&query=count&url=https%3A%2F%2Fapi.countapi.xyz%2Fget%2Fishanssr%2Fprofile"/></td>
+      <td align="center"><img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=58a6ff&label=&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FIshanssr"/></td>
       <td align="center"><img src="https://img.shields.io/github/followers/Ishanssr?style=flat-square&color=58a6ff&label="/></td>
       <td align="center"><img src="https://img.shields.io/github/stars/Ishanssr?style=flat-square&color=58a6ff&label="/></td>
     </tr>
