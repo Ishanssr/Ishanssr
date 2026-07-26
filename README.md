@@ -31,7 +31,7 @@
   <br/><br/>
   <img src="https://raw.githubusercontent.com/Ishanssr/Ishanssr/gh-pages/output/github-contribution-grid-snake-dark.svg" width="95%" alt="Contribution Snake"/>
   <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=Ishanssr&show_icons=true&count_private=true&hide_border=true&title_color=58a6ff&icon_color=818cf8&text_color=c9d1d9&bg_color=0d1117" width="48%"/>
+  <img src="https://github-readme-stats.shion.dev/api?username=Ishanssr&show_icons=true&count_private=true&hide_border=true&title_color=58a6ff&icon_color=818cf8&text_color=c9d1d9&bg_color=0d1117" width="48%"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ishanssr&hide_border=true&background=0d1117&stroke=334155&ring=58a6ff&fire=818cf8&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=94a3b8&dates=64748b" width="48%"/>
 </div>
 
