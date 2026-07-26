@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Ishan&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%"/>
+  <img src="assets/banner.svg" width="100%" height="200" alt="Ishan Uchiha"/>
 </div>
 
 <br/>
