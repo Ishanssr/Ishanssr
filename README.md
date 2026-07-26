@@ -245,9 +245,14 @@
 <br/>
 
 <div align="center">
-  <h2>🎧 Currently Playing</h2>
+  <h2>🎧 Now Playing</h2>
   <br/>
-  <i>🔊 Set up your <a href="https://github.com/kittinan/spotify-github-profile">Spotify Now Playing</a> card — I need your Spotify UID to activate this</i>
+  <a href="https://music.apple.com/profile/Ishanssr">
+    <img src="https://apple-music-github-profile.rayriffy.com/connect/Ishanssr" width="50%" alt="Apple Music"
+         onerror="this.style.display='none'"/>
+  </a>
+  <br/><br/>
+  <i>🎵 Apple Music — connect at <a href="https://apple-music-github-profile.rayriffy.com">rayriffy.com</a> to show now playing</i>
 </div>
 
 <br/>
@@ -300,6 +305,17 @@
   ⚛️ <b>Quantum Computing</b> — Qubits · Superposition · Shor's algorithm
   <br/><br/>
   🔭 <b>Cosmology</b> — Big Bang · Dark matter · Cosmic microwave background
+</div>
+
+<br/>
+<hr/>
+<br/>
+
+<div align="center">
+  <h2>📬 Contact</h2>
+  <br/>
+  <a href="mailto:15h4nj4n81r@gmail.com"><img src="https://img.shields.io/badge/Email-15h4nj4n81r@gmail.com-58a6ff?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/ishan-jangir-11a782266/"><img src="https://img.shields.io/badge/LinkedIn-ishan--jangir-58a6ff?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </div>
 
 <br/>
