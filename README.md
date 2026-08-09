@@ -37,12 +37,9 @@
 
 <br/>
 
-<p align="center"><b>🕹️ ESCAPE_BASH — a playable game with a real shell</b><br/><sub>a terminal session is running. click to open it, then type your own commands — `ls`, `cd home/`, `cat .profile_key`, `run exit.sh`… no buttons, no walkthrough. find your way out on your own.</sub></p>
-
 <div align="center">
-  <a href="https://ishanssr.github.io/Ishanssr/terminal/index.html">
-    <img src="game/assets/cover.svg" width="60%" alt="ESCAPE_BASH — a real terminal. open it and type."/>
-  </a>
+  <img src="assets/doodle.svg" width="28%" alt="doodle"/>
+  <p><sub>that apple music card? gone. the game? also gone. this doodle waved at you though.</sub></p>
 </div>
 
 <br/>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="small robot doodle waving">
+  <style>
+    @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    @keyframes wave { 0%,100% { transform: rotate(0deg); } 25%,75% { transform: rotate(-22deg); } 50% { transform: rotate(22deg); } }
+    .body  { animation: bob 3.2s ease-in-out infinite; transform-origin: 120px 120px; }
+    .arm   { animation: wave 1.6s ease-in-out infinite; transform-origin: 148px 96px; }
+  </style>
+  <g class="body">
+    <rect x="60" y="64" width="120" height="112" rx="20" fill="#0d1117" stroke="#30363d" stroke-width="4"/>
+    <rect x="60" y="64" width="120" height="24" rx="12" fill="#21262d" stroke="#30363d" stroke-width="2"/>
+    <circle cx="96" cy="76" r="5" fill="#f85149"/>
+    <circle cx="144" cy="76" r="5" fill="#3fb950"/>
+    <rect x="84" y="100" width="20" height="20" rx="4" fill="#0d1117" stroke="#58a6ff" stroke-width="3"/>
+    <rect x="136" y="100" width="20" height="20" rx="4" fill="#0d1117" stroke="#58a6ff" stroke-width="3"/>
+    <line x1="80" y1="146" x2="160" y2="146" stroke="#8b949e" stroke-width="4" stroke-linecap="round"/>
+    <path d="M60 176 v20 a20 20 0 0 0 20 20 h40" fill="none" stroke="#30363d" stroke-width="4"/>
+    <path d="M180 176 v20 a20 20 0 0 1 -20 20 h-40" fill="none" stroke="#30363d" stroke-width="4"/>
+  </g>
+  <g class="arm">
+    <line x1="160" y1="90" x2="196" y2="72" stroke="#8b949e" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="202" cy="70" r="8" fill="#58a6ff"/>
+  </g>
+  <line x1="120" y1="48" x2="120" y2="40" stroke="#8b949e" stroke-width="5" stroke-linecap="round"/>
+  <line x1="128" y1="50" x2="140" y2="38" stroke="#8b949e" stroke-width="3" stroke-linecap="round"/>
+  <text x="220" y="72" font-family="ui-monospace,monospace" font-size="18" fill="#3fb950">hi.</text>
+  <text x="212" y="94" font-family="ui-monospace,monospace" font-size="12" fill="#8b949e">deal with it</text>
+</svg>
