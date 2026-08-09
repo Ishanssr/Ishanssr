@@ -2,16 +2,15 @@
 
 <div align="center"><img src="assets/start.svg" width="100%" alt="start terminal"/></div>
 
-## your move
+## what do you do?
 
-```sh
-ls
-```
+scrolling is your keyboard. click what you'd actually do:
 
-| run |
+| |
 |---|
-| [`ls`](ls.md) |
-| [`whoami`](whoami.md) |
-| [`help`](help.md) |
+| [**look around the room**](ls.md) |
+| [**figure out who i am**](whoami.md) |
+
+<sub>🧭 lost? [ask for a hint →](hint-start.md) — only you get to decide.</sub>
 
 <div align="center"><sub>still stuck? <a href="../README.md">go back to the profile</a>.</sub></div>

@@ -2,17 +2,17 @@
 
 <div align="center"><img src="assets/ls.svg" width="100%" alt="ls terminal"/></div>
 
-## your move
+## what do you do?
 
-```sh
-ls
-```
+scrolling is your keyboard. click what you'd actually do:
 
-| run |
+| |
 |---|
-| [`cd secret/`](secret.md) |
-| [`cat README.md`](cat_readme.md) |
-| [`cd home/`](home.md) |
-| [`ls -a`](dot.md) |
+| [**open the folder named secret**](secret.md) |
+| [**read the README**](cat_readme.md) |
+| [**step into home**](home.md) |
+| [**hunt for hidden files**](dot.md) |
+
+<sub>🧭 lost? [ask for a hint →](hint-ls.md) — only you get to decide.</sub>
 
 <div align="center"><sub>still stuck? <a href="../README.md">go back to the profile</a>.</sub></div>

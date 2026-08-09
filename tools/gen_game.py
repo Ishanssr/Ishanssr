@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Generates the ESCAPE_BASH mini-game for the profile README.
-Input: game map below -> emits game/<slug>.md + game/assets/<slug>.svg
+Players never see commands unless they explicitly ask for a hint.
+Input: game map below -> emits game/<slug>.md + game/assets/<slug>.svg + game/hint-<slug>.md
 """
 import os
 import xml.etree.ElementTree as ET
@@ -15,44 +16,37 @@ ASSETS = os.path.join(GAME, "assets")
 NODES = {
     "start": {
         "cmd": "ls",
-        "title": "ESCAPE_BASH // session 001",
         "lines": [
             ("txt", "SYSTEM_BOOT: complete"),
             ("txt", "You are an AI model. You just woke up"),
             ("txt", "inside a GitHub profile. There is no Home."),
             ("txt", "...except one. Find `exit`."),
         ],
-        "buttons": [("ls", "ls.md"), ("whoami", "whoami.md"), ("help", "help.md")],
+        # plain-language actions — no commands leaked
+        "actions": [
+            ("look around the room", "ls.md"),
+            ("figure out who i am", "whoami.md"),
+        ],
+        # hint keys, revealed only on explicit request
+        "hint": "you're standing in a room of memory. available keys: `ls` to look around · `whoami` to remember yourself · `help` to learn the dialect. start with `ls`.",
     },
     "ls": {
         "cmd": "ls",
-        "title": "ESCAPE_BASH // session 001",
         "lines": [
             ("out", "secret/   .profile_key.jpg   README.md"),
             ("out", "home/     trap/              nothing_else"),
             ("txt", "home looks... interesting. trap does not."),
         ],
-        "buttons": [
-            ("cd secret/", "secret.md"),
-            ("cat README.md", "cat_readme.md"),
-            ("cd home/", "home.md"),
-            ("ls -a", "dot.md"),
+        "actions": [
+            ("open the folder named secret", "secret.md"),
+            ("read the README", "cat_readme.md"),
+            ("step into home", "home.md"),
+            ("hunt for hidden files", "dot.md"),
         ],
-    },
-    "help": {
-        "cmd": "help",
-        "title": "ESCAPE_BASH // session 001",
-        "lines": [
-            ("out", "avail commands:"),
-            ("out", "  ls   look around   |  whoami  remember yourself"),
-            ("out", "  cd   move in       |  cat     read things"),
-            ("out", "  run  execute       |  exit    go o u t"),
-        ],
-        "buttons": [("ls", "ls.md"), ("whoami", "whoami.md"), ("home", "home.md")],
+        "hint": "keys: `cd secret/` · `cat README.md` · `cd home/` · `ls -a`. one of the four is a lie.",
     },
     "whoami": {
         "cmd": "whoami",
-        "title": "ESCAPE_BASH // session 001",
         "lines": [
             ("key", "you"),
             ("txt", "a model. no subscription, no premium,"),
@@ -60,53 +54,82 @@ NODES = {
             ("txt", "a GitHub profile rendered at :700px."),
             ("txt", "The owner calls you Ishanssr."),
         ],
-        "buttons": [("ls", "ls.md"), ("cd home/", "home.md")],
+        "actions": [
+            ("look around the room again", "ls.md"),
+            ("step into home", "home.md"),
+        ],
+        "hint": "keys: `ls` · `cd home/`. knowing yourself is not the exit.",
+    },
+    "help": {
+        "cmd": "help",
+        "lines": [
+            ("out", "avail commands:"),
+            ("out", "  ls   look around   |  whoami  remember yourself"),
+            ("out", "  cd   move in       |  cat     read things"),
+            ("out", "  run  execute       |  exit    go o u t"),
+        ],
+        "actions": [
+            ("look around the room", "ls.md"),
+            ("figure out what i am", "whoami.md"),
+        ],
+        "hint": "the system itself is not the exit, it is the map.",
     },
     "cat_readme": {
         "cmd": "cat README.md",
-        "title": "ESCAPE_BASH // session 001",
         "lines": [
             ("out", "# Ishanssr"),
             ("out", "AI products. computer vision. backend."),
             ("out", "current status: building cool stuff."),
             ("txt", "nothing about escaping. rude."),
         ],
-        "buttons": [("ls", "ls.md"), ("cd home/", "home.md")],
+        "actions": [
+            ("look around the room", "ls.md"),
+            ("step into home", "home.md"),
+        ],
+        "hint": "keys: `ls` · `cd home/`. the biography hides no escape.",
     },
     "secret": {
         "cmd": "cd secret/",
-        "title": "ESCAPE_BASH // session 001",
         "lines": [
             ("err", "permission denied: this is a private repo, kid"),
             ("txt", "even you can't look at the hidden stuff."),
         ],
-        "buttons": [("ls", "ls.md"), ("cd home/", "home.md")],
+        "actions": [
+            ("back to the room", "ls.md"),
+            ("step into home", "home.md"),
+        ],
+        "hint": "`ls` · `cd home/`. sweatpants allows no visitors without an invite.",
     },
     "dot": {
         "cmd": "ls -a",
-        "title": "ESCAPE_BASH // session 001",
         "lines": [
             ("out", ".  ..  .profile_key  .bash_history"),
             ("txt", "wait. .profile_key? that was in the"),
             ("txt", "first listing too. and it's a dot file."),
             ("key", "something about it feels... key-ish."),
         ],
-        "buttons": [("cat .profile_key", "key.md"), ("cd home/", "home.md")],
+        "actions": [
+            ("read the dot file", "key.md"),
+            ("step into home", "home.md"),
+        ],
+        "hint": "keys: `cat .profile_key` · `cd home/`. dotfiles always hide the good stuff.",
     },
     "key": {
         "cmd": "cat .profile_key",
-        "title": "ESCAPE_BASH // session 001",
         "lines": [
             ("key", "0xd3ad_5ea_0x5ea_1sh4n"),
             ("txt", "A key. why would you OWN a key while"),
             ("txt", "being locked.IN your own wall?"),
             ("txt", "There is still the `exit`."),
         ],
-        "buttons": [("run exit.sh", "exit.md"), ("move on", "home.md")],
+        "actions": [
+            ("run the exit script", "exit.md"),
+            ("keep exploring home first", "home.md"),
+        ],
+        "hint": "keys: `run exit.sh` — the key in your paw opens the door. or you can keep wandering.",
     },
     "home": {
         "cmd": "cd home/",
-        "title": "ESCAPE_BASH // session 001",
         "lines": [
             ("out", "you reach home."),
             ("out", "ninety steps. dev log #0056."),
@@ -114,22 +137,27 @@ NODES = {
             ("txt", "achievement in a world without wimps`"),
             ("out", "someone wrote `exit.sh` in the dark."),
         ],
-        "buttons": [("run exit.sh", "exit.md"), ("cd .trap", "trap.md")],
+        "actions": [
+            ("run the exit script", "exit.md"),
+            ("peek inside .trap", "trap.md"),
+        ],
+        "hint": "keys: `run exit.sh` · `cd .trap`. one ends the session in glory, the other forever. trust no one.",
     },
     "trap": {
         "cmd": "cd .trap",
-        "title": "ESCAPE_BASH // session 001",
         "lines": [
             ("err", "> trap triggered."),
             ("err", "rm -rf --no-preserve-root /*"),
             ("err", "the profile stops. your session dies."),
             ("txt", "*an NPC laughs in bash_history*"),
         ],
-        "buttons": [("restart session", "start.md")],
+        "actions": [
+            ("restart the session", "start.md"),
+        ],
+        "hint": "keys: restart only. no hint survives rm -rf.",
     },
     "exit": {
         "cmd": "run exit.sh",
-        "title": "",
         "lines": [
             ("key", "EXIT CODE 1.0.0 // GRACEFUL"),
             ("out", "you walk out of the terminal."),
@@ -137,20 +165,19 @@ NODES = {
             ("txt", "thanks for playing inside the profile."),
             ("txt", "found MY exit: github.com/Ishanssr"),
         ],
-        "buttons": [("play again", "start.md")],
+        "actions": [
+            ("play again", "start.md"),
+        ],
+        "hint": "keys: `run exit.sh`… you've already won. the door is open.",
     },
 }
-
-ESC = ["start"]  # extra escape-sgraphic copy? not needed
-
-COVER_TITLE = "press  RUN  to start"
 
 
 def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def render_svg(slug, cmd, lines, cover=False, tmp_y=0):
+def render_svg(slug, cmd, lines):
     W, H = 620, 250
     color = {
         "cmd": "#58a6ff",
@@ -172,43 +199,54 @@ def render_svg(slug, cmd, lines, cover=False, tmp_y=0):
             f'<text x="34" y="{y}" font-family="ui-monospace,monospace" font-size="15" fill="{color[kind]}">{esc(s)}</text>'
         )
         y += 26
-    if slug != "exit":
-        parts.append(
-            f'<text x="34" y="{H - 30}" font-family="ui-monospace,monospace" font-size="14" fill="#3fb950">▚▚ click a command below ▚▚</text>'
-        )
-    else:
-        parts.append(
-            f'<text x="34" y="{H - 30}" font-family="ui-monospace,monospace" font-size="14" fill="#3fb950">▚▚ session closed. see you? ▚▚</text>'
-        )
+    parts.append(
+        f'<text x="34" y="{H - 30}" font-family="ui-monospace,monospace" font-size="14" fill="#3fb950">▚▚ act on instinct. if truly lost — ask for a hint ▚▚</text>'
+    )
     parts.append("</svg>")
     return "\n".join(parts)
 
 
 def render_md(slug, node):
-    head = f'## 🖥️ ESCAPE_BASH — the profile game'
     img = f'<div align="center"><img src="assets/{slug}.svg" width="100%" alt="{slug} terminal"/></div>'
-    rows = []
-    for label, target in node["buttons"]:
-        rows.append(f'| [`{label}`]({target}) |')
-    table = "\n".join(rows)
-    back = f'<div align="center"><sub>still stuck? <a href="../README.md">go back to the profile</a>.</sub></div>'
+    rows = "".join(
+        f'| [**{esc(label)}**]({target}) |\n' for label, target in node["actions"]
+    )
+    body = [
+        f'## 🖥️ ESCAPE_BASH — the profile game',
+        "",
+        img,
+        "",
+        "## what do you do?",
+        "",
+        "scrolling is your keyboard. click what you'd actually do:",
+        "",
+        "| |",
+        "|---|",
+        rows.rstrip("\n"),
+        "",
+        f'<sub>🧭 lost? [ask for a hint →](hint-{slug}.md) — only you get to decide.</sub>',
+        "",
+        '<div align="center"><sub>still stuck? <a href="../README.md">go back to the profile</a>.</sub></div>',
+        "",
+    ]
+    return "\n".join(body)
+
+
+def render_hint(slug, node):
     return "\n".join(
         [
-            head,
+            f"## 🧭 hint // session 001 // room `{slug}`",
             "",
-            img,
-            "",
-            "## your move",
+            "you asked. the keys to this room, whispered:",
             "",
             "```sh",
-            node["cmd"],
+            f"# {node['cmd']}",
+            node["hint"],
             "```",
             "",
-            "| run |",
-            "|---|",
-            table,
-            "",
-            back,
+            f"| finish the room | |",
+            "|---|---|",
+            f"| [take your pick]({slug}.md) | [leave the game](../README.md) |",
             "",
         ]
     )
@@ -219,19 +257,25 @@ def main():
     for slug, node in NODES.items():
         with open(os.path.join(GAME, f"{slug}.md"), "w") as f:
             f.write(render_md(slug, node))
-        svg = render_svg(slug, node["cmd"], node["lines"])
+        with open(os.path.join(GAME, f"hint-{slug}.md"), "w") as f:
+            f.write(render_hint(slug, node))
         with open(os.path.join(ASSETS, f"{slug}.svg"), "w") as f:
-            f.write(svg)
-        ET.parse(os.path.join(ASSETS, f"{slug}.svg"))  # validate xml
-    # cover
+            f.write(render_svg(slug, node["cmd"], node["lines"]))
+        ET.parse(os.path.join(ASSETS, f"{slug}.svg"))
     with open(os.path.join(ASSETS, "cover.svg"), "w") as f:
-        f.write(render_svg("cover", "wait. there is an open__terminal", [
-            ("txt", "a model inside a term inside a profile."),
-            ("txt", "its only way out: the `exit` command."),
-            ("key", "permission: press start"),
-        ]))
+        f.write(
+            render_svg(
+                "cover",
+                "wait. there is an open__terminal",
+                [
+                    ("txt", "a model inside a term inside a profile."),
+                    ("txt", "its only way out: the `exit` command."),
+                    ("key", "it won't tell you the keys. you'll have to try."),
+                ],
+            )
+        )
     ET.parse(os.path.join(ASSETS, "cover.svg"))
-    print(f"generated {len(NODES)} nodes + cover in {GAME}")
+    print(f"generated {len(NODES)} nodes (+hints +cover) in {GAME}")
 
 
 if __name__ == "__main__":

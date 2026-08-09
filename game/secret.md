@@ -2,15 +2,15 @@
 
 <div align="center"><img src="assets/secret.svg" width="100%" alt="secret terminal"/></div>
 
-## your move
+## what do you do?
 
-```sh
-cd secret/
-```
+scrolling is your keyboard. click what you'd actually do:
 
-| run |
+| |
 |---|
-| [`ls`](ls.md) |
-| [`cd home/`](home.md) |
+| [**back to the room**](ls.md) |
+| [**step into home**](home.md) |
+
+<sub>🧭 lost? [ask for a hint →](hint-secret.md) — only you get to decide.</sub>
 
 <div align="center"><sub>still stuck? <a href="../README.md">go back to the profile</a>.</sub></div>

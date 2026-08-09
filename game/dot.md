@@ -2,15 +2,15 @@
 
 <div align="center"><img src="assets/dot.svg" width="100%" alt="dot terminal"/></div>
 
-## your move
+## what do you do?
 
-```sh
-ls -a
-```
+scrolling is your keyboard. click what you'd actually do:
 
-| run |
+| |
 |---|
-| [`cat .profile_key`](key.md) |
-| [`cd home/`](home.md) |
+| [**read the dot file**](key.md) |
+| [**step into home**](home.md) |
+
+<sub>🧭 lost? [ask for a hint →](hint-dot.md) — only you get to decide.</sub>
 
 <div align="center"><sub>still stuck? <a href="../README.md">go back to the profile</a>.</sub></div>

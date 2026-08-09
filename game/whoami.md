@@ -2,15 +2,15 @@
 
 <div align="center"><img src="assets/whoami.svg" width="100%" alt="whoami terminal"/></div>
 
-## your move
+## what do you do?
 
-```sh
-whoami
-```
+scrolling is your keyboard. click what you'd actually do:
 
-| run |
+| |
 |---|
-| [`ls`](ls.md) |
-| [`cd home/`](home.md) |
+| [**look around the room again**](ls.md) |
+| [**step into home**](home.md) |
+
+<sub>🧭 lost? [ask for a hint →](hint-whoami.md) — only you get to decide.</sub>
 
 <div align="center"><sub>still stuck? <a href="../README.md">go back to the profile</a>.</sub></div>

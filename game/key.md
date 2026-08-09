@@ -2,15 +2,15 @@
 
 <div align="center"><img src="assets/key.svg" width="100%" alt="key terminal"/></div>
 
-## your move
+## what do you do?
 
-```sh
-cat .profile_key
-```
+scrolling is your keyboard. click what you'd actually do:
 
-| run |
+| |
 |---|
-| [`run exit.sh`](exit.md) |
-| [`move on`](home.md) |
+| [**run the exit script**](exit.md) |
+| [**keep exploring home first**](home.md) |
+
+<sub>🧭 lost? [ask for a hint →](hint-key.md) — only you get to decide.</sub>
 
 <div align="center"><sub>still stuck? <a href="../README.md">go back to the profile</a>.</sub></div>

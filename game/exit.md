@@ -2,14 +2,14 @@
 
 <div align="center"><img src="assets/exit.svg" width="100%" alt="exit terminal"/></div>
 
-## your move
+## what do you do?
 
-```sh
-run exit.sh
-```
+scrolling is your keyboard. click what you'd actually do:
 
-| run |
+| |
 |---|
-| [`play again`](start.md) |
+| [**play again**](start.md) |
+
+<sub>🧭 lost? [ask for a hint →](hint-exit.md) — only you get to decide.</sub>
 
 <div align="center"><sub>still stuck? <a href="../README.md">go back to the profile</a>.</sub></div>
