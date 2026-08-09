@@ -37,11 +37,11 @@
 
 <br/>
 
-<p align="center"><b>🕹️ ESCAPE_BASH — a game, playable right here in my profile. no install, no login, no subscription.</b><br/><sub>a stray terminal session is running on this page. can you find the way out?</sub></p>
+<p align="center"><b>🕹️ ESCAPE_BASH — a playable game with a real shell</b><br/><sub>a terminal session is running. click to open it, then type your own commands — `ls`, `cd home/`, `cat .profile_key`, `run exit.sh`… no buttons, no walkthrough. find your way out on your own.</sub></p>
 
 <div align="center">
-  <a href="game/start.md">
-    <img src="game/assets/cover.svg" width="60%" alt="ESCAPE_BASH — press run to start"/>
+  <a href="https://ishanssr.github.io/Ishanssr/terminal/index.html">
+    <img src="game/assets/cover.svg" width="60%" alt="ESCAPE_BASH — a real terminal. open it and type."/>
   </a>
 </div>
 
