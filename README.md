@@ -37,9 +37,11 @@
 
 <br/>
 
+<p align="center"><b>🕹️ ESCAPE_BASH — a game, playable right here in my profile. no install, no login, no subscription.</b><br/><sub>a stray terminal session is running on this page. can you find the way out?</sub></p>
+
 <div align="center">
-  <a href="https://music-profile.rayriffy.com">
-    <img src="https://music-profile.rayriffy.com/theme/dark.svg?uid=001615.72a778249e074012b9043e46e826e657.1905" width="50%" alt="Apple Music"/>
+  <a href="game/start.md">
+    <img src="game/assets/cover.svg" width="60%" alt="ESCAPE_BASH — press run to start"/>
   </a>
 </div>
 

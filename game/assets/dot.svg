@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="250" viewBox="0 0 620 250" role="img" aria-label="ESCAPE_BASH terminal">
+<rect width="620" height="250" fill="#0d1117" rx="10"/>
+<rect x="1" y="1" width="618" height="248" fill="none" stroke="#21262d" stroke-width="2" rx="10"/>
+<circle cx="34" cy="34" r="7" fill="#f85149"/><circle cx="58" cy="34" r="7" fill="#d29922"/><circle cx="82" cy="34" r="7" fill="#3fb950"/>
+<text x="34" y="82" font-family="ui-monospace,monospace" font-size="17" fill="#f0883e" font-weight="bold">ls -a</text>
+<text x="34" y="116" font-family="ui-monospace,monospace" font-size="15" fill="#3fb950">.  ..  .profile_key  .bash_history</text>
+<text x="34" y="142" font-family="ui-monospace,monospace" font-size="15" fill="#8b949e">wait. .profile_key? that was in the</text>
+<text x="34" y="168" font-family="ui-monospace,monospace" font-size="15" fill="#8b949e">first listing too. and it's a dot file.</text>
+<text x="34" y="194" font-family="ui-monospace,monospace" font-size="15" fill="#d2a8ff">something about it feels... key-ish.</text>
+<text x="34" y="220" font-family="ui-monospace,monospace" font-size="14" fill="#3fb950">▚▚ click a command below ▚▚</text>
+</svg>
